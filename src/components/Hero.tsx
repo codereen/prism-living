@@ -1,29 +1,33 @@
 import heroImage from "../assets/images/hero.jpg";
+import Container from "./ui/Container";
+import Button from "./ui/BUtton";
 
 function Hero() {
   return (
     <section
-      className="relative h-[80vh] bg-cover bg-center"
+      className="relative min-h-screen bg-cover bg-center"
       style={{
         backgroundImage: `url(${heroImage})`,
       }}
     >
-      <div className="absolute inset-0 bg-black/40" />
+      <div className="absolute inset-0 bg-black/45" />
 
-      <div className="relative z-10 flex h-full flex-col justify-center px-8 text-white">
-        <h1 className="max-w-3xl text-6xl font-bold leading-tight">
-          Furniture inspired by the world.
-        </h1>
+      <Container className="relative z-10 flex h-screen items-center">
+        <div className="max-w-2xl text-white">
+          <h1 className="text-6xl font-bold leading-tight">
+            Furniture inspired by the world.
+          </h1>
 
-        <p className="mt-6 max-w-xl text-lg">
-          Discover pieces that celebrate culture,
-          creativity and personal expression.
-        </p>
+          <p className="mt-6 text-xl text-gray-200">
+            Discover pieces that celebrate culture, creativity and personal
+            expression.
+          </p>
 
-        <button className="mt-8 w-fit rounded-full bg-white px-8 py-3 text-black">
-          Explore Collection
-        </button>
-      </div>
+          <div className="mt-10">
+            <Button>Explore Collection →</Button>
+          </div>
+        </div>
+      </Container>
     </section>
   );
 }
