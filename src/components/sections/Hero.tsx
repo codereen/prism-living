@@ -1,6 +1,6 @@
-import heroImage from "../assets/images/hero.jpg";
-import Container from "./ui/Container";
-import Button from "./ui/BUtton";
+import heroImage from "../../assets/images/hero.jpg";
+import Container from "../ui/Container";
+import Button from "../ui/Button";
 
 function Hero() {
   return (
