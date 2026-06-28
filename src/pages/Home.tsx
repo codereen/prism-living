@@ -1,13 +1,11 @@
 import Navbar from "../components/Navbar";
+import Hero from "../components/Hero";
 
 function Home() {
   return (
     <>
       <Navbar />
-
-      <main>
-        <p>The world inspires. You decide.</p>
-      </main>
+      <Hero />
     </>
   );
 }
