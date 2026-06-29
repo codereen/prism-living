@@ -8,11 +8,11 @@ function FeaturedCollections() {
       <Container>
      <div className="mb-16 text-center">
   <p className="text-sm uppercase tracking-[0.35em] text-neutral-500">
-    Explore The World
+    COLLECTIONS
   </p>
 
   <h2 className="mt-4 text-5xl font-semibold text-neutral-900">
-    Design beyond borders.
+    Discover cultures through design.
   </h2>
 
   <p className="mx-auto mt-6 max-w-2xl text-lg text-neutral-600">

@@ -14,17 +14,24 @@ function Hero() {
 
       <Container className="relative z-10 flex min-h-screen items-center">
         <div className="max-w-2xl text-white">
-          <h1 className="text-6xl font-bold leading-tight">
-            Furniture inspired by the world.
-          </h1>
+          <h1 className="text-6xl font-semibold leading-[1.05] lg:text-7xl">
+  Inspired by
+  <br />
+  the world.
+  <br />
+  <br />
+  Designed for
+  <br />
+  your home.
+</h1>
 
-          <p className="mt-6 text-xl text-gray-200">
-            Discover pieces that celebrate culture, creativity and personal
-            expression.
-          </p>
+          <p className="mt-8 max-w-xl text-xl leading-relaxed text-stone-200">
+  Discover culturally inspired furniture collections and customise every piece
+  to suit your space with AI-powered design.
+</p>
 
           <div className="mt-10">
-            <Button>Explore Collection →</Button>
+            <Button>Explore Collections →</Button>
           </div>
         </div>
       </Container>
