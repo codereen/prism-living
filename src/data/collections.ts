@@ -1,26 +1,47 @@
 import type { Collection } from "../types/collection";
 
-import livingRoom from "../assets/images/living-room.jpg";
-import bedroom from "../assets/images/bedroom.jpg";
-import dining from "../assets/images/dining.jpg";
+import india from "../assets/images/collections/indiastyled.png";
+import japan from "../assets/images/collections/japanstyled.png";
+import morocco from "../assets/images/collections/moroccostyled.png";
+import turkey from "../assets/images/collections/turkeystyled.png";
+import korea from "../assets/images/collections/koreastyled.png";
+import france from "../assets/images/collections/frenchstyled.png";
 
 export const collections: Collection[] = [
   {
     id: 1,
-    title: "Living Room",
-    description: "Spaces designed for gathering and comfort.",
-    image: livingRoom,
+    title: "India",
+    tagline: "Heritage craftsmanship",
+    image: india,
   },
   {
     id: 2,
-    title: "Bedroom",
-    description: "Restful interiors inspired by global design.",
-    image: bedroom,
+    title: "Japan",
+    tagline: "Zen minimalism",
+    image: japan,
   },
   {
     id: 3,
-    title: "Dining",
-    description: "Beautiful furniture made for shared moments.",
-    image: dining,
+    title: "Morocco",
+    tagline: "Bold textures",
+    image: morocco,
+  },
+  {
+    id: 4,
+    title: "Turkey",
+    tagline: "Timeless elegance",
+    image: turkey,
+  },
+  {
+    id: 5,
+    title: "Korea",
+    tagline: "Modern serenity",
+    image: korea,
+  },
+  {
+    id: 6,
+    title: "France",
+    tagline: "Contemporary luxury",
+    image: france,
   },
 ];

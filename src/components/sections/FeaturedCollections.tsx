@@ -6,20 +6,20 @@ function FeaturedCollections() {
   return (
     <section className="bg-[#faf8f3] py-24">
       <Container>
-        <div className="mb-12">
-          <p className="text-sm font-medium uppercase tracking-[0.2em] text-gray-500">
-            Explore
-          </p>
+     <div className="mb-16 text-center">
+  <p className="text-sm uppercase tracking-[0.35em] text-neutral-500">
+    Explore The World
+  </p>
 
-          <h2 className="mt-2 text-4xl font-bold text-gray-900">
-            Featured Collections
-          </h2>
+  <h2 className="mt-4 text-5xl font-semibold text-neutral-900">
+    Design beyond borders.
+  </h2>
 
-          <p className="mt-4 max-w-2xl text-lg text-gray-600">
-            Curated furniture collections inspired by cultures from around the
-            world.
-          </p>
-        </div>
+  <p className="mx-auto mt-6 max-w-2xl text-lg text-neutral-600">
+    Discover furniture collections inspired by cultures around the world,
+    thoughtfully reimagined for modern living.
+  </p>
+</div>
 
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-3">
           {collections.map((collection) => (
