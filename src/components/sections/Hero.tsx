@@ -12,7 +12,7 @@ function Hero() {
     >
       <div className="absolute inset-0 bg-black/45" />
 
-      <Container className="relative z-10 flex h-screen items-center">
+      <Container className="relative z-10 flex min-h-screen items-center">
         <div className="max-w-2xl text-white">
           <h1 className="text-6xl font-bold leading-tight">
             Furniture inspired by the world.
