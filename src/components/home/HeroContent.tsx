@@ -10,7 +10,7 @@ function HeroContent() {
           A NEW SPECTRUM OF LIVING • FALL / WINTER 2026
         </p>
 
-        <h1 className="text-[6rem] font-black leading-[0.85] xl:text-[7.5rem]">
+        <h1 className="text-[6.5rem] font-black leading-[0.78] xl:text-[8rem]">
           PRISM.
           <br />
           PRISM.
@@ -18,7 +18,7 @@ function HeroContent() {
           PRISM.
         </h1>
 
-        <p className="mt-8 max-w-md text-xl leading-9">
+        <p className="mt-10 max-w-lg text-[22px] leading-10 text-white/90">
           One light. Many traditions. IKEA Prism brings together
           global craftsmanship and modern Scandinavian living.
         </p>
