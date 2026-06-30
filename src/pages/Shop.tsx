@@ -66,7 +66,7 @@ function Shop() {
 </aside>
 
                     {/* Products */}
-                    <section className="grid gap-x-10 gap-y-14 md:grid-cols-2 xl:grid-cols-3">
+                    <section className="grid gap-10 md:grid-cols-2 xl:grid-cols-4">
                         {products.map((product) => (
                             <ProductCard
                                 key={product.id}
