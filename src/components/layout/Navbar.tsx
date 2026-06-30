@@ -57,11 +57,11 @@ function Navbar() {
         {/* CTA */}
 <div className="flex w-1/4 justify-end">
         <Link
-          to="/shop"
-          className="rounded-full bg-[#F45A2A] px-7 py-3 font-medium text-white transition hover:bg-[#dd4d21]"
-        >
-          Design Studio
-        </Link>
+  to="/studio"
+  className="rounded-full bg-[#F45A2A] px-7 py-3 font-medium text-white transition hover:bg-[#dd4d21]"
+>
+  Design Studio
+</Link>
 </div>
       </div>
     </header>
