@@ -8,37 +8,21 @@ interface CollectionCardProps {
 function CollectionCard({ collection }: CollectionCardProps) {
   return (
     <Link to={`/collections/${collection.slug}`}>
-      <article className="group overflow-hidden rounded-[32px] bg-white shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
+      <div className="rounded-3xl bg-white p-8 shadow">
+        <img
+          src={collection.image}
+          alt={collection.title}
+          className="aspect-[4/5] w-full rounded-2xl object-cover"
+        />
 
-        <div className="overflow-hidden">
-          <img
-            src={collection.image}
-            alt={collection.title}
-            className="aspect-[4/5] w-full object-cover transition duration-700 group-hover:scale-105"
-          />
-        </div>
+        <h3 className="mt-6 text-3xl font-bold">
+          {collection.title}
+        </h3>
 
-        <div className="p-8">
-
-          <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
-            {collection.tagline}
-          </p>
-
-          <h3 className="text-4xl font-black">
-            {collection.title}
-          </h3>
-
-          <div className="mt-6 flex items-center gap-2 text-[#F45A2A] transition-all group-hover:gap-4">
-            <span className="text-sm font-semibold uppercase tracking-[0.2em]">
-              Explore
-            </span>
-
-            <span>→</span>
-          </div>
-
-        </div>
-
-      </article>
+        <p className="mt-2 text-neutral-500">
+          {collection.tagline}
+        </p>
+      </div>
     </Link>
   );
 }
