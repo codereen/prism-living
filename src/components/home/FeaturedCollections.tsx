@@ -4,6 +4,7 @@ import { collections } from "../../data/collections";
 
 function FeaturedCollections() {
   return (
+    <section id="collections"> 
     <section className="bg-[#faf8f3] py-24">
       <Container>
      <div className="mb-16 text-center">
@@ -30,6 +31,7 @@ function FeaturedCollections() {
           ))}
         </div>
       </Container>
+    </section>
     </section>
   );
 }
