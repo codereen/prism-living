@@ -8,35 +8,37 @@ interface CollectionCardProps {
 function CollectionCard({ collection }: CollectionCardProps) {
   return (
     <Link to={`/collections/${collection.slug}`}>
-  <article className="group relative aspect-[4/5] overflow-hidden rounded-[28px] cursor-pointer">
-      <img
-        src={collection.image}
-        alt={collection.title}
-        className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
-      />
+      <article className="group overflow-hidden rounded-[32px] bg-white shadow-sm transition duration-500 hover:-translate-y-2 hover:shadow-2xl">
 
-      <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent" />
-
-      <div className="absolute bottom-0 left-0 p-8 text-white">
-        <p className="mb-3 text-xs uppercase tracking-[0.35em] text-stone-300">
-          {collection.tagline}
-        </p>
-
-        <h3 className="text-5xl font-semibold">
-          {collection.title}
-        </h3>
-
-        <div className="mt-8 flex items-center gap-2 overflow-hidden transition-all duration-300 group-hover:gap-5">
-          <span className="text-sm uppercase tracking-[0.2em]">
-            Explore
-          </span>
-
-          <span className="translate-x-[-12px] opacity-0 transition-all duration-300 group-hover:translate-x-0 group-hover:opacity-100">
-  →
-</span>
+        <div className="overflow-hidden">
+          <img
+            src={collection.image}
+            alt={collection.title}
+            className="aspect-[4/5] w-full object-cover transition duration-700 group-hover:scale-105"
+          />
         </div>
-      </div>
-    </article>
+
+        <div className="p-8">
+
+          <p className="mb-3 text-xs uppercase tracking-[0.35em] text-neutral-500">
+            {collection.tagline}
+          </p>
+
+          <h3 className="text-4xl font-black">
+            {collection.title}
+          </h3>
+
+          <div className="mt-6 flex items-center gap-2 text-[#F45A2A] transition-all group-hover:gap-4">
+            <span className="text-sm font-semibold uppercase tracking-[0.2em]">
+              Explore
+            </span>
+
+            <span>→</span>
+          </div>
+
+        </div>
+
+      </article>
     </Link>
   );
 }
