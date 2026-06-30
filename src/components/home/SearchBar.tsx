@@ -2,7 +2,7 @@ import { Search } from "lucide-react";
 
 function SearchBar() {
   return (
-    <section className="bg-[#F8F5EE] pt-8">
+    <section className="bg-[#F8F5EE] py-6">
       <div className="mx-auto max-w-[1440px] px-8 lg:px-16">
 
         <div className="relative">

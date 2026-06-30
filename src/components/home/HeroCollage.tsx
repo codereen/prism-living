@@ -5,7 +5,7 @@ import turkey from "../../assets/images/products/turkey.png";
 
 function HeroCollage() {
   return (
-    <div className="grid h-full grid-cols-2 gap-4 p-5">
+    <div className="grid h-[620px] grid-cols-2 gap-4 bg-[#F8F5EE] p-4">
       <div className="overflow-hidden rounded-[28px]">
         <img
           src={heroPattern}

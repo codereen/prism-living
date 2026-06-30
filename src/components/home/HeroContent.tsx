@@ -2,15 +2,14 @@ import HeroCTA from "./HeroCTA";
 
 function HeroContent() {
   return (
-    <div className="flex flex-col justify-between p-14 text-white">
-
+<div className="flex min-h-[620px] flex-col justify-between bg-[#F05A28] p-16 text-white">
       <div>
 
         <p className="mb-6 text-sm uppercase tracking-[0.35em]">
           A NEW SPECTRUM OF LIVING • FALL / WINTER 2026
         </p>
 
-        <h1 className="text-[6.5rem] font-black leading-[0.78] xl:text-[8rem]">
+        <h1 className="text-[5rem] font-black leading-[0.78] xl:text-[8rem]">
           PRISM.
           <br />
           PRISM.
